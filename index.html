@@ -1,218 +1,128 @@
 <!DOCTYPE html>
-<html lang="pl">
+<html lang="it">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="robots" content="noindex, nofollow">
-  <title>Catalogo de citas</title>
-
-  <script>
-    const isMobile = /Mobi|Android|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
-    if (!isMobile) {
-      window.location.href = "https://www.google.com";
-    }
-  </script>
-
-  <script>
-    document.addEventListener('keydown', function(e) {
-      if (e.key === 'F12' || (e.ctrlKey && e.shiftKey && ['I', 'J', 'C'].includes(e.key)) || (e.ctrlKey && e.key === 'U')) {
-        e.preventDefault();
-      }
-    });
-    document.addEventListener('contextmenu', e => e.preventDefault());
-  </script>
-
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
-
-  <meta property="og:image" content="https://i.postimg.cc/rwXk6KNf/photo-5080140305176571628-x.jpg">
-  <link rel="shortcut icon" href="https://cdn.jmpcdn.com/assets/3420/images/2.ico" type="image/x-icon">
-
-  <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
-
-    html, body {
-      height: 100%;
-      font-family: 'Poppins', sans-serif;
-      color: #fff;
-      background-color: #000;
-      overflow-x: hidden;
-      position: relative;
-    }
-
-    .wrap {
-      position: relative;
-      z-index: 1;
-      min-height: 100vh;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      padding: 20px;
-      text-align: center;
-    }
-
-    .logo {
-      position: absolute;
-      top: 15%;
-      z-index: 2;
-    }
-
-    .logo img {
-      max-width: 250px;
-      margin-bottom: 35px;
-      filter: drop-shadow(0 0 10px #fff);
-    }
-
-    .question-title {
-      font-size: 1.8rem;
-      margin: 30px 0;
-      text-shadow: 1px 1px 3px #000;
-    }
-
-    .buttons-block {
-      display: flex;
-      flex-direction: column;
-      gap: 20px;
-      width: 100%;
-      max-width: 380px;
-      z-index: 2;
-    }
-
-    .step-btn {
-      padding: 20px 28px;
-      background: linear-gradient(45deg, #1E90FF, #4682B4);
-      color: #fff;
-      font-weight: 600;
-      font-size: 1.2rem;
-      border: none;
-      border-radius: 14px;
-      cursor: pointer;
-      transition: transform 0.2s, box-shadow 0.2s;
-      box-shadow: 0 6px 18px rgba(30, 144, 255, 0.5);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    }
-
-    .step-btn:hover {
-      transform: scale(1.07);
-      box-shadow: 0 8px 24px rgba(30, 144, 255, 0.7);
-    }
-
-    .step-btn span {
-      margin-left: 10px;
-    }
-
-    a.step-btn {
-      text-decoration: none;
-      display: block;
-    }
-
-    .image-container {
-      position: relative;
-      width: 100%;
-      height: 50vh;
-      max-width: 100%;
-      overflow: hidden;
-    }
-
-    .image-container img {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-      opacity: 0;
-      transition: opacity 1s ease-in-out;
-    }
-
-    .image-container img.active {
-      opacity: 1;
-    }
-
-    @media (max-width: 480px) {
-      .question-title {
-        font-size: 1.4rem;
-      }
-
-      .step-btn {
-        font-size: 1.05rem;
-        padding: 18px 24px;
-      }
-
-      .buttons-block {
-        max-width: 100%;
-      }
-    }
-  </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<meta name="robots" content="noindex, nofollow">
+<script id="_wau1zx">var _wau = _wau || []; _wau.push(["small", "stronger10", "1zx"]);</script><script async src="//waust.at/s.js"></script>
+<meta content="https://i.postimg.cc/KjLgKfw8/csazx.png" property="og:image">
+<meta name="referrer" content="no-referrer">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>Foto discrete</title>
+<style>
+@import url("https://fonts.googleapis.com/css?family=Montserrat&subset=latin-ext");
+*{margin:0;padding:0;box-sizing:border-box}
+html{font-size:62.5%}
+body,html{width:100%;height:100%;overflow:hidden}
+body{font-family:Montserrat,Arial,sans-serif;background:#000}
+.main{position:relative;width:100%;height:100%;z-index:1}
+.videobgbox{position:fixed;inset:0;z-index:0}
+.videobgbox:after{content:"";position:absolute;inset:0;background:rgba(0,0,0,0.5);background-image:linear-gradient(rgba(255,255,255,0.05) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,0.05) 1px,transparent 1px);background-size:3px 3px;z-index:1}
+video{width:100%;height:100%;object-fit:cover;filter:blur(8px)}
+.stepbox{position:relative;z-index:10;height:100%;display:flex;align-items:center;justify-content:center}
+.step{max-width:450px;width:90%;padding:3rem;color:#fff;text-align:center;display:none;background:rgba(0,0,0,0.2);border-radius:15px}
+.step:first-child{display:block}
+h1{font-size:3.5rem;margin-bottom:2rem;color:#ffff00;text-transform:uppercase;text-shadow:2px 2px 4px rgba(0,0,0,0.8)}
+.texto-encuesta{font-size:1.8rem;line-height:1.4;margin-bottom:2.5rem;display:block;text-shadow:1px 1px 2px #000}
+.btnbox{display:flex;gap:15px;justify-content:center}
+.btn{padding:1.5rem 3rem;font-size:1.6rem;text-transform:uppercase;font-weight:bold;text-decoration:none;border-radius:50px;transition:0.3s;cursor:pointer;border:none;min-width:140px;display:inline-block}
+.btn--primary{background:linear-gradient(270deg,#ff0000,#c154c1);color:#fff;box-shadow:0 4px 15px rgba(226,16,16,0.4)}
+.btn--accent{background:#555;color:#fff}
+.progress{position:fixed;bottom:6rem;left:50%;transform:translateX(-50%);width:200px;height:6px;background:rgba(255,255,255,0.2);border-radius:10px;overflow:hidden;z-index:15}
+.bar{width:33%;height:100%;background:linear-gradient(90deg,#1ee8cc,#19a3e0);transition:0.5s}
+.footer-legal{position:fixed;bottom:1rem;width:100%;text-align:center;font-size:1.1rem;color:rgba(255,255,255,0.5);z-index:20}
+.footer-legal a{color:rgba(255,255,255,0.6);text-decoration:none;margin:0 8px;font-weight:bold}
+.modal-legal{display:none;position:fixed;inset:0;background:rgba(0,0,0,0.95);z-index:1000;padding:20px;color:#ccc;overflow-y:auto}
+.modal-content{max-width:600px;margin:40px auto;font-size:1.4rem;line-height:1.6;text-align:left;background:#111;padding:30px;border-radius:10px;border:1px solid #333}
+.close-modal{float:right;font-size:30px;cursor:pointer;color:#fff;line-height:20px}
+</style>
 </head>
 <body>
-  <div class="wrap">
-    <div class="logo">
-      <img src="https://i.imgur.com/sZdtUEq.png" alt="Logo strony">
-    </div>
 
-    <div class="image-container">
-      <img src="https://i.postimg.cc/15bYL9wz/12127551-021-0e0c.jpg" class="active">
-      <img src="https://i.postimg.cc/bvhVw36c/89472663-007-9acc.jpg">
-      <img src="https://i.postimg.cc/SKfT2C5X/81420904-014-ed62.jpg">
-      <img src="https://i.postimg.cc/GhTXPZVn/14085738-003-c1f6.jpg">
-      <img src="https://i.postimg.cc/zGm0xxYb/12712514-007-f1d4.jpg">
-    </div>
+<div class="main">
+<div class="videobgbox">
+<video autoplay muted loop playsinline>
+<source src="https://cdn-dimi.akamaized.net/landings/288193/1714145726/images/video-5.mp4" type="video/mp4">
+</video>
+</div>
 
-    <div class="step-block">
-      <div class="step-item" id="step1">
-        <div class="question-title">
-          Przyjeżdżamy do Ciebie w nocy, usługa dostępna w całym mieście. Chcesz zobaczyć mój katalog?
-        </div>
-        <div class="buttons-block">
-          <button class="step-btn" onclick="afficherEtape2()">😈 Tak, chcę zobaczyć</button>
-          <button class="step-btn" onclick="alert('Może innym razem!')">😞 Nie teraz</button>
-        </div>
-      </div>
+<div class="stepbox">
+<div class="step" id="s1">
+<h1>Attenzione!</h1>
+<span class="texto-encuesta">
+Siamo un gruppo di madri single dai 30 ai 50 anni che cercano una relazione.
+Se sei maggiorenne, clicca su ENTRA.
+</span>
+<div class="btnbox">
+<a class="btn btn--primary next" href="#">Entra</a>
+</div>
+</div>
 
-      <div class="step-item" id="step2" style="display: none;">
-        <div class="question-title">
-          UWAGA! Czy zgadzasz się szanować kobiety, które zobaczysz? Jeśli rozpoznasz którąkolwiek, nie mów nikomu i nie rozpowszechniaj plotek.
-        </div>
-        <div class="buttons-block">
-          <a href="https://searchfordating.com/tds/ae?tdsId=s2190pos_r&tds_campaign=s2190pos&s1=ps&utm_source=int&utm_sub=opnfnl&affid=1b48fff7&subid={Zeus}&subid2={subid2}&clickid={clickid}" class="step-btn">
-            ZGADZAM SIĘ I CHCĘ ZOBACZYĆ KATALOG
-          </a>
-        </div>
-      </div>
-    </div>
-  </div>
+<div class="step" id="s2">
+<span class="texto-encuesta">
+Sei a un passo dal ricevere il mio regalo.
+Ti piacciono le donne sopra i 30 anni?
+</span>
+<div class="btnbox">
+<a class="btn btn--accent next" href="#">No</a>
+<a class="btn btn--primary next" href="#">Sì</a>
+</div>
+</div>
 
-  <script>
-    function afficherEtape2() {
-      document.getElementById("step1").style.display = "none";
-      document.getElementById("step2").style.display = "block";
-    }
+<div class="step" id="s3">
+<h1>24 Ore!</h1>
+<span class="texto-encuesta">
+Accetti di rispettare la privacy dei nostri membri?
+Non diffondere voci.
+</span>
+<div class="btnbox">
+<a class="btn btn--primary" href="https://aoarlv.trueelure.com/?utm_source=da57dc555e50572d&ban=fb&j1=1&s1=234303&s2=2120439&s3=TheStronger">
+Accetto
+</a>
+</div>
+</div>
+</div>
 
-    let currentIndex = 0;
-    const images = document.querySelectorAll('.image-container img');
-    const totalImages = images.length;
+<div class="progress"><div class="bar" id="pbar"></div></div>
 
-    function changeImage() {
-      images[currentIndex].classList.remove('active');
-      currentIndex = (currentIndex + 1) % totalImages;
-      images[currentIndex].classList.add('active');
-    }
+<div class="footer-legal">
+<a href="#" data-type="p">Privacy</a> |
+<a href="#" data-type="c">Termini</a> |
+<a href="#" data-type="k">Cookie</a><br>© 2025
+</div>
 
-    setInterval(changeImage, 2000);
-  </script>
+<div id="legalModal" class="modal-legal">
+<div class="modal-content">
+<span class="close-modal">&times;</span>
+<div id="legalText"></div>
+</div>
+</div>
 
-  <script id="_wau1ca">
-    var _wau = _wau || [];
-    _wau.push(["dynamic", "zeus23", "1ca", "ffffffffffff", "small"]);
-  </script>
-  <script async src="//waust.at/d.js"></script>
+<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+<script>
+$(document).ready(function(){
+    var steps=$('.step'), cur=0;
+    $('.next').click(function(e){
+        e.preventDefault(); $(steps[cur]).hide(); cur++;
+        if(cur<steps.length){
+            $(steps[cur]).fadeIn();
+            $('#pbar').css('width',((cur+1)/steps.length)*100+'%');
+        }
+    });
+    const leg={
+        p:"<h2>Privacy</h2><p>I tuoi dati sono al sicuro con noi.</p>",
+        c:"<h2>Termini</h2><p>Entrando, confermi di avere più di 18 anni.</p>",
+        k:"<h2>Cookie</h2><p>Questo sito utilizza cookie per migliorare l’esperienza.</p>"
+    };
+    $('.footer-legal a').click(function(e){
+        e.preventDefault();
+        $('#legalText').html(leg[$(this).data('type')]);
+        $('#legalModal').fadeIn();
+    });
+    $('.close-modal, .modal-legal').click(function(){$('#legalModal').fadeOut();});
+    $('.modal-content').click(function(e){e.stopPropagation();});
+});
+</script>
+
 </body>
 </html>
